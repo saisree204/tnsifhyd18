@@ -1,0 +1,44 @@
+package com.si.sample;
+
+public class Parent3 {
+    public void maa()
+    {
+    	System.out.println("mom is eating");
+    }
+}
+public class Child4 extends Parent3
+{
+    public void sri()
+    {
+    	System.out.println("child4 is eating");
+    }
+}
+public class Child5 extends Parent3
+{
+  public void zoo()
+  {
+	  System.out.println("child5 is eating");
+  }
+}
+public class Child6 extends Parent3 {
+    public void bro()
+    {
+    	System.out.println("child6 is eating");
+    }
+}
+public class Parent3Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         Parent3 p=new Parent3();
+         p.maa();
+         Child4 c=new Child4();
+         c.sri();
+         Child5 c5=new Child5();
+         c5.zoo();
+         Child6 s=new Child6();
+         s.bro();
+         
+	}
+
+}
