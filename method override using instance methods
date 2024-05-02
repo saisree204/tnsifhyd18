@@ -1,0 +1,26 @@
+package com.si.sample;
+     //method overriding
+public class College
+{
+	void name()
+	{
+		System.out.println("sri indu college");
+	}
+
+}
+public class Student extends College
+{
+	 void name()
+	   {
+		System.out.println("sai sreeja");
+	    }
+}
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+College c1=new Student();
+c1.name();
+	}
+
+}
