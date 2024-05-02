@@ -1,0 +1,25 @@
+package com.si.sample;
+    //method overloading using static members
+public class Add1 
+{
+ static String a="sreeja";
+  public static String dheer(String b)
+  {
+	  return b;
+  }
+ public static int dheer(int b,int c)
+ {
+	 return b+c;
+ }
+}
+public class TextDemo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     System.out.println(Add1.a);
+     System.out.println(Add1.dheer("sai sreeja"));
+     System.out.println(Add1.dheer(20,30));
+     
+	}
+
+}
