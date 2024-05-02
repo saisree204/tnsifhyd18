@@ -1,0 +1,25 @@
+package com.si.sample;
+
+public class Parent1 {
+       public void maa()
+       {
+    	   System.out.println("mom is eating");
+       }
+}
+public class Child1 extends Parent1
+{
+       public void chi()
+       {
+    	   System.out.println("child is eating");
+       }
+}
+public class Child1Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         Child1 c=new Child1();
+         c.maa();
+         c.chi();
+	}
+
+}
