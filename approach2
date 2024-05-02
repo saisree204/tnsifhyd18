@@ -1,0 +1,28 @@
+package com.si.sample;
+     //approach2
+public class A {
+	String a="sreeja";
+	static int b=10;
+	String sree()
+	{
+		return "indrakanti";
+	}
+	public static void jack()
+	{
+		System.out.println("sai sreeja");
+	}
+}
+public class B {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+    A a1=new A();
+    System.out.println(a1.a);
+    System.out.println(a1.sree());
+    System.out.println(A.b);
+    A.jack();
+    
+	}
+
+}
