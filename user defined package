@@ -1,0 +1,69 @@
+package com.si.sample;
+
+public class Mom {
+	public void name()
+	{
+		System.out.println("my name is sunitha");
+	}
+	public void profession()
+	{
+		System.out.println("teacher");
+	}
+	public void salary()
+	{
+		System.out.println("my salary is 15000");
+	}
+}
+public class Dad {
+	public void name()
+	{
+		System.out.println("my name is thirumal reddy");
+	}
+	public void profession()
+	{
+		System.out.println("farmer");
+	}
+	public void salary()
+	{
+		System.out.println("my salary is 100000");
+	}
+}
+public class Brother {
+	public void name()
+	{
+		System.out.println("my name is bittu");
+	}
+	public void profession()
+	{
+		System.out.println("student");
+	}
+	public void salary()
+	{
+		System.out.println("nill");
+	}
+}
+****************************************************************************************
+import com.si.sample.Brother;
+import com.si.sample.Dad;
+import com.si.sample.Mom;
+
+public class UserPackage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 Brother b1=new Brother();
+	       Mom m1=new Mom();
+	       Dad d1=new Dad();
+	       b1.name();
+	       b1.profession();
+	       b1.salary();
+	       m1.name();
+	       m1.profession();
+	       m1.salary();
+	       d1.name();
+	       d1.profession();
+	       d1.salary();
+
+	}
+
+}
