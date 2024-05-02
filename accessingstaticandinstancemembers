@@ -1,0 +1,25 @@
+package com.si.sample;
+      //Approach one
+public class Sample1 {
+	String a="sreeja";
+	static int b=10;
+	String sree()
+	{
+		return "indrakanti";
+	}
+	public static void jack()
+	{
+		System.out.println("sai sreeja");
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       Sample1 s1= new Sample1();
+       System.out.println(s1.a);
+       System.out.println(Sample1.b);
+       System.out.println(s1.sree());
+       Sample1.jack();
+       
+	}
+
+}
