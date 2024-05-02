@@ -1,0 +1,31 @@
+package com.si.sample;
+    //default constructor
+public class Car2 {
+     private String doors;
+     private String engine;
+     private String driver;
+     private int speed;
+     public Car2()
+     {
+    	 doors="closed";
+    	 engine="on";
+    	 driver="seated";
+    	 speed=50;
+     }
+     public String run2()
+     {
+    	 if(doors.equals("closed") && engine.equals("on")&&driver.equals("seated")&&speed>0)
+         return "car is running";
+    	 else
+    		 return "car is not running";
+     }
+}
+public class Car2Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Car2 c1=new Car2();
+      System.out.println(c1.run2());
+	}
+
+}
