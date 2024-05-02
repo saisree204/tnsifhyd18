@@ -1,0 +1,56 @@
+package com.si.sample;
+      //encapsulation
+public class Car1 {
+	private String doors;
+	private String driver;
+	private String engine;
+	private int speed;
+	public String getDoors() {
+		return doors;
+	}
+	public void setDoors(String doors) {
+		this.doors = doors;
+	}
+	public String getDriver() {
+		return driver;
+	}
+	public void setDriver(String driver) {
+		this.driver = driver;
+	}
+	public String getEngine() {
+		return engine;
+	}
+	public void setEngine(String engine) {
+		this.engine = engine;
+	}
+	public int getSpeed() {
+		return speed;
+	}
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	void run()
+	{
+		if(doors.equals("closed") && engine.equals("on")&&driver.equals("seated")&&speed>0)
+		{
+		System.out.println("car is running");
+		}
+       else 
+       {
+	System.out.println("car is not running");
+	}
+}
+}  
+public class CarMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    Car1 c=new Car1();
+    c.setDoors("closed");
+    c.setEngine("on");
+    c.setDriver("seated");
+    c.setSpeed(96);
+    c.run();
+	}
+
+}
