@@ -1,0 +1,26 @@
+package com.si.sample;
+      //method overloading
+public class Add {
+	int a=10;
+	int dhee(int x,int y)
+	{
+		return x+y;
+	}
+    int dhee(int x,int y,int z)
+    {
+    	return x+y+z;
+    	
+    }
+}
+public class TextDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     Add a1 =new Add();
+     System.out.println(a1.a);
+     System.out.println(a1.dhee(20, 30));
+     System.out.println(a1.dhee(20, 30,40));
+     
+	}
+
+}
