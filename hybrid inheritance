@@ -1,0 +1,45 @@
+package com.si.sample;
+
+public class GrandFather {
+	public void gra()
+	{
+		System.out.println("he is my grand father");
+	}
+
+}
+public class Father extends GrandFather
+{
+  public void faa()
+  {
+	  System.out.println("he is my father inherited fromgrandpa");
+  }
+}
+public class Son  extends Father
+{
+    public void soo()
+    {
+    	System.out.println("he is son inherited from father");
+    }
+}
+public class Daughter extends Father
+{
+    public void daa()
+    {
+    	System.out.println("she is daughyter inherited from father");
+    }
+}
+public class GrandFatherMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         Son s1=new Son();
+         s1.soo();
+         s1.faa();
+         s1.gra();
+         Daughter d1=new Daughter();
+         d1.faa();
+         d1.gra();
+         d1.daa();
+	}
+
+}
