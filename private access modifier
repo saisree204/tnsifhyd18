@@ -16,3 +16,29 @@ public class PrivateMain {
 	}
 
 }
+//by using public access modifier we can access it 
+
+package family;
+
+public class Private {
+	 public int meee(int a,int b)
+     {
+    	 return a+b;
+     }
+
+}
+public class PrivateMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          Private p=new Private();
+          System.out.println(p.meee(10,20));//error meee() has private access
+          
+	}
+
+}
+output:30
+
+
+
+
