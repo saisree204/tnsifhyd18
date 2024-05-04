@@ -1,0 +1,17 @@
+package family;
+
+public class FinalKey {
+	final int a=10;
+	void add()
+	{
+		a=40;
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       FinalKey k=new FinalKey();
+       k.add();
+	}
+
+}
+output :error
