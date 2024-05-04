@@ -1,0 +1,21 @@
+package family;
+
+public class Protected1 {
+	protected void msg()
+    {
+ 	  System.out.println("sreeja");
+    }
+
+}
+package com.si.sample;
+  import family.*;
+public class ProtectedMain1 extends Protected1{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       ProtectedMain1 p1=new ProtectedMain1();
+       p1.msg();
+	}
+
+}
+output:sreeja
