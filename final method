@@ -1,0 +1,19 @@
+package family;
+class Father{
+final void faa()
+{
+System.out.println("father");
+}
+}
+class Son extends Father
+{
+void faa()
+{
+System.out.println("son");
+}
+public static void main(String[] args) {
+Son s1=new Son();
+s1.faa();
+}
+}
+output:error
