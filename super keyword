@@ -1,0 +1,22 @@
+package family;
+
+public class Super1 {
+       int maxlimit=100;
+       
+}
+package family;
+
+public class SuperMain extends Super1 {
+        int maxlimit=200;
+        void display()
+        {
+        	System.out.println("maximum speed limit: " +super. maxlimit);
+        }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+            SuperMain s1=new SuperMain();
+            s1.display();
+	}
+
+}
+ output:maximum speed limit:100
