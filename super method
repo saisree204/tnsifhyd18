@@ -1,0 +1,30 @@
+public class Super2 {
+	void father()
+	{
+		System.out.println("i am a father");
+	}
+
+}
+public class Super2Main extends Super2 {
+	    void father()
+	    {
+	    	System.out.println("father inherited");
+	    }
+	    void message() {
+	    super.father();
+	    
+	    }
+
+}
+public class Smain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			// TODO Auto-generated method stub
+	        Super2Main s2=new Super2Main();
+	        s2.father();
+		}
+	}
+
+
