@@ -1,0 +1,19 @@
+package family;
+
+interface FunctionalInterface {
+        public int addition(int a,int b);
+}
+public class FunctionalInterfaceMain  {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          FunctionalInterface f=(int a,int b)->{
+        	  return (a+b);
+        	  
+          };
+        System.out.println(f.addition(51, 62));		 
+	}
+	
+
+}
+output:113
