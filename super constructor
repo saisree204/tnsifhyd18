@@ -1,0 +1,27 @@
+package family;
+
+public class SuperConstructor {
+        SuperConstructor()
+        {
+        	System.out.println("i am a parent constructor");
+        }
+}
+public class SuperConstructor1 extends SuperConstructor {
+        SuperConstructor1()
+        {
+        	super();
+        	System.out.println("i am a child constructor");
+        }
+}
+public class SuperConstructorMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+            SuperConstructor1 c1=new SuperConstructor1();
+            
+	}
+
+}
+output: 
+i am a parent constructo
+i am a child constructo
