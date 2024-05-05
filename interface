@@ -1,0 +1,19 @@
+package family;
+
+public interface Interface1 {
+     void msg();
+}
+public class Interface1Main implements Interface1{
+	public void msg()
+	{
+		System.out.println("implemented");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          Interface1 a=new Interface1Main();
+          a.msg();
+	}
+
+}
+output: implemented
