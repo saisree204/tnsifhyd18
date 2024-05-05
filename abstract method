@@ -1,0 +1,21 @@
+package family;
+
+abstract class TextDemo {
+   abstract  void chinni();
+}
+public class TextDemo1 extends TextDemo{
+      void chinni()
+      {
+    	  System.out.println(" my name is chinni");
+      }
+}
+public class TextDemoMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        TextDemo1 d1=new TextDemo1();
+        d1.chinni();
+	}
+
+}
+output: my name is chinni
