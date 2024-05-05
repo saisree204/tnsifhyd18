@@ -1,0 +1,45 @@
+package family;
+
+public interface Bank {
+   void rateofinterest();
+}
+public class sbi  implements Bank
+{
+     public void rateofinterest()
+      {
+    	  System.out.println("interest is low in sbi bank");
+      }
+}
+public class ICICI implements Bank {
+    public void rateofinterest()
+    {
+    	System.out.println("interest is moderate in ICICI bank");
+    }
+}
+public class APGVB  implements Bank
+{
+    public void rateofinterest()
+    {
+    	System.out.println("interest is high in APGVB bank");
+    }
+}
+public class BankMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Bank b1=new sbi();
+        b1.rateofinterest();
+        Bank b2=new ICICI();
+        b2.rateofinterest();
+        Bank b3=new APGVB();
+        b3.rateofinterest();
+        
+	}
+
+}
+output: 
+interest is low in sbi bank
+interest is moderate in ICICI bank
+interest is high in APGVB bank
+
+
